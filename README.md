@@ -1,4 +1,4 @@
-# api_biblioteca
+# library-api
 Api de biblioteca de livros criada em Java Spring Boot utilizando TDD:
 
 - Banco de dados em memória H2; 
