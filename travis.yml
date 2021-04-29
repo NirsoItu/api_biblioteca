@@ -1,0 +1,5 @@
+# Arquivo para integração continua com TRAVIS CI
+language: java
+jdk:
+  - oraclejdk11
+dist: trusty
