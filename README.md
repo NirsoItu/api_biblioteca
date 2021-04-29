@@ -1,5 +1,5 @@
 # library-api
-Api de biblioteca de livros criada em Java Spring Boot utilizando TDD:
+Api de biblioteca de livros criada em Java Spring Boot utilizando TDD,  curso de Design de API's RestFul com Spring Boot, TDD e o novo JUnit5 - UDEMY:
 
 - Banco de dados em memória H2; 
 - Acesso a documentação Swagger;
