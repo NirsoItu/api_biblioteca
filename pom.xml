@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.rogerio</groupId>
 	<artifactId>library-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>library-api</name>
 	<description>API do projeto de bibliotecas</description>
 	<properties>
@@ -88,24 +88,15 @@
 			<artifactId>spring-boot-admin-starter-client</artifactId>
 			<version>2.4.0</version>
 		</dependency>
-
-
-
 	</dependencies>
 
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
-				</configuration>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.1.0</version>
+
 			</plugin>
 		</plugins>
 	</build>
